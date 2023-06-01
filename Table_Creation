@@ -1,3 +1,5 @@
+-- Here I created tables in order to "clone" the instagram business data model of users, photos, tags, likes, etc.
+
 CREATE TABLE users (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
